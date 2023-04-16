@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8824205742883572604
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8824205742883572594}
+  - component: {fileID: 8824205742883572605}
+  m_Layer: 0
+  m_Name: MirrorTransformController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8824205742883572594
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8824205742883572604}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8824205742883572605
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8824205742883572604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4acf9d0233c6704dbe1bff9815d6aa6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  toolEnabled: 0
+  transformRotationEnabled: 0
+  decimalPlaces: 4
+  rootTransform: {fileID: 0}
+  positionEnabled: 1
+  rotationEnabled: 1
+  scaleEnabled: 1
+  rotationQuaternionMode: 1
+  rotationEulerMode: 0
+  allPositionEnabled: 1
+  allRotationQuaternionEnabled: 1
+  allRotationEulerEnabled: 0
+  allScaleEnabled: 1
+  rotationMode: 0
+  transformListNum: 0
+  allMirrorEnabled: 0
+  rightTransformList: []
+  leftTransformList: []
+  mirrorEnabledList: 
+  transformPositionSignList: []
+  transformScaleSignList: []
+  transformRotationQuaternionSignList: []
+  transformRotationHandleAxisList: []
+  transformRotationEulerAngleSignList: []
+  transformPositionEnabledList: 
+  transformRotationEulerEnabledList: 
+  transformRotationQuaternionEnabledList: 
+  transformScaleEnabledList: 
+  settingIsOpen: 0
+  advancedSettingIsOpen: 0
+  transformListIsOpen: 1
